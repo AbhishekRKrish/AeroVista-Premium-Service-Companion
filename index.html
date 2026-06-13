@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AeroVista Premium Service Companion</title>
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+  <body>
+    <main class="product-shell">
+      <section class="workspace" aria-label="AeroVista Premium Service Companion mockup">
+        <aside class="product-panel">
+          <div class="brand-lockup">
+            <span class="brand-mark" aria-hidden="true">AV</span>
+            <div>
+              <p class="eyebrow">AeroVista Airways</p>
+              <h1>Premium Service Companion</h1>
+            </div>
+          </div>
+
+          <div class="flight-card">
+            <div>
+              <span class="label">Flight</span>
+              <strong>AV 214</strong>
+            </div>
+            <div>
+              <span class="label">Route</span>
+              <strong>JFK to LHR</strong>
+            </div>
+            <div>
+              <span class="label">Cabin</span>
+              <strong>Business Suite</strong>
+            </div>
+          </div>
+
+          <div class="view-switcher" role="tablist" aria-label="Mockup views">
+            <button class="view-tab active" type="button" role="tab" aria-selected="true" data-view="passenger">Passenger</button>
+            <button class="view-tab" type="button" role="tab" aria-selected="false" data-view="seatback">Seatback</button>
+            <button class="view-tab" type="button" role="tab" aria-selected="false" data-view="crew">Crew</button>
+          </div>
+
+          <div class="metric-grid" aria-label="Prototype metrics">
+            <div>
+              <span>Preference capture</span>
+              <strong>72%</strong>
+            </div>
+            <div>
+              <span>Meal timing accuracy</span>
+              <strong>94%</strong>
+            </div>
+            <div>
+              <span>Premium service CSAT</span>
+              <strong>+8.4</strong>
+            </div>
+          </div>
+        </aside>
+
+        <section class="canvas">
+          <div class="device-row">
+            <article class="phone device-panel view-pane active" data-pane="passenger" aria-label="Passenger app mockup">
+              <div class="device-top">
+                <span>9:41</span>
+                <span class="signal">5G</span>
+              </div>
+
+              <div class="app-header">
+                <span class="app-mark">AV</span>
+                <div>
+                  <p>Welcome aboard</p>
+                  <h2>Maya Chen</h2>
+                </div>
+              </div>
+
+              <section class="boarding-visual" aria-label="Cabin preview">
+                <div class="window-scene">
+                  <span class="wing"></span>
+                </div>
+                <div>
+                  <p>Suite 3A</p>
+                  <strong>Service preferences open</strong>
+                </div>
+              </section>
+
+              <section class="control-block">
+                <div class="section-title">
+                  <h3>Meal timing</h3>
+                  <span id="mealStatus">Mid-flight</span>
+                </div>
+                <div class="segmented" data-control="meal">
+                  <button type="button" data-value="After takeoff">After takeoff</button>
+                  <button class="selected" type="button" data-value="Mid-flight">Mid-flight</button>
+                  <button type="button" data-value="Before landing">Before landing</button>
+                </div>
+              </section>
+
+              <section class="control-block">
+                <div class="section-title">
+                  <h3>Beverage</h3>
+                  <span id="drinkStatus">Sparkling wine</span>
+                </div>
+                <div class="choice-grid" data-control="drink">
+                  <button class="selected" type="button" data-value="Sparkling wine"><span class="swatch gold"></span>Sparkling wine</button>
+                  <button type="button" data-value="Still water"><span class="swatch water"></span>Still water</button>
+                  <button type="button" data-value="Coffee"><span class="swatch coffee"></span>Coffee</button>
+                  <button type="button" data-value="Green tea"><span class="swatch tea"></span>Green tea</button>
+                </div>
+              </section>
+
+              <section class="control-block">
+                <div class="section-title">
+                  <h3>Rest preference</h3>
+                  <span id="restStatus">Do not disturb after meal</span>
+                </div>
+                <label class="toggle-row">
+                  <input id="restToggle" type="checkbox" checked />
+                  <span class="toggle"></span>
+                  <span>Do not disturb after meal</span>
+                </label>
+                <label class="toggle-row">
+                  <input id="wakeToggle" type="checkbox" />
+                  <span class="toggle"></span>
+                  <span>Wake before landing</span>
+                </label>
+              </section>
+
+              <button class="primary-action" type="button">Save to AeroVista profile</button>
+            </article>
+
+            <article class="seatback device-panel view-pane" data-pane="seatback" aria-label="Seatback screen mockup">
+              <div class="seatback-top">
+                <span class="app-mark">AV</span>
+                <div>
+                  <p>Seat 3A</p>
+                  <strong>Personalize service</strong>
+                </div>
+                <span class="pill">Business Suite</span>
+              </div>
+
+              <div class="route-strip">
+                <span>JFK</span>
+                <div class="route-line"><span></span></div>
+                <span>LHR</span>
+              </div>
+
+              <section class="seatback-hero">
+                <div class="cabin-screen-visual">
+                  <span></span>
+                </div>
+                <div class="seatback-summary">
+                  <p>Tonight's service plan</p>
+                  <h2 id="seatbackHeadline">Mid-flight dining, then quiet rest</h2>
+                </div>
+              </section>
+
+              <div class="seatback-grid">
+                <div>
+                  <span>Meal</span>
+                  <strong id="seatbackMeal">Mid-flight</strong>
+                </div>
+                <div>
+                  <span>Beverage</span>
+                  <strong id="seatbackDrink">Sparkling wine</strong>
+                </div>
+                <div>
+                  <span>Rest</span>
+                  <strong id="seatbackRest">Do not disturb after meal</strong>
+                </div>
+                <div>
+                  <span>Occasion</span>
+                  <strong>Anniversary</strong>
+                </div>
+              </div>
+
+              <div class="seatback-actions">
+                <button type="button">Edit meal</button>
+                <button type="button">Call host</button>
+                <button type="button">Privacy</button>
+              </div>
+            </article>
+
+            <article class="crew-board device-panel view-pane" data-pane="crew" aria-label="Crew seat summary mockup">
+              <div class="crew-header">
+                <div>
+                  <p>Premium cabin</p>
+                  <h2>Service board</h2>
+                </div>
+                <span class="pill">12 suites</span>
+              </div>
+
+              <div class="crew-toolbar">
+                <button class="active" type="button">All</button>
+                <button type="button">Meal pending</button>
+                <button type="button">Rest</button>
+                <button type="button">Occasions</button>
+              </div>
+
+              <div class="seat-map" aria-label="Premium cabin seats">
+                <button class="seat active" type="button">
+                  <span>3A</span>
+                  <strong>Maya Chen</strong>
+                  <small id="crewSeatSummary">Mid-flight · Sparkling wine</small>
+                </button>
+                <button class="seat" type="button">
+                  <span>3D</span>
+                  <strong>Jon Bell</strong>
+                  <small>After takeoff · Coffee</small>
+                </button>
+                <button class="seat rest" type="button">
+                  <span>4A</span>
+                  <strong>Priya Shah</strong>
+                  <small>Before landing · Rest</small>
+                </button>
+                <button class="seat occasion" type="button">
+                  <span>4D</span>
+                  <strong>Noah Reed</strong>
+                  <small>Mid-flight · Birthday</small>
+                </button>
+                <button class="seat served" type="button">
+                  <span>5A</span>
+                  <strong>Elena Rossi</strong>
+                  <small>Served · White wine</small>
+                </button>
+                <button class="seat" type="button">
+                  <span>5D</span>
+                  <strong>Samir Rao</strong>
+                  <small>Before landing · Tea</small>
+                </button>
+              </div>
+
+              <section class="crew-detail">
+                <div>
+                  <span class="label">Selected seat</span>
+                  <h3>3A · Maya Chen</h3>
+                </div>
+                <dl>
+                  <div>
+                    <dt>Meal</dt>
+                    <dd id="crewMeal">Mid-flight</dd>
+                  </div>
+                  <div>
+                    <dt>Beverage</dt>
+                    <dd id="crewDrink">Sparkling wine</dd>
+                  </div>
+                  <div>
+                    <dt>Rest</dt>
+                    <dd id="crewRest">Do not disturb after meal</dd>
+                  </div>
+                  <div>
+                    <dt>Recognition</dt>
+                    <dd>Anniversary</dd>
+                  </div>
+                </dl>
+                <button class="primary-action compact" type="button">Mark service complete</button>
+              </section>
+            </article>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
