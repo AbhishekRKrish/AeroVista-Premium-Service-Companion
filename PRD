@@ -1,1 +1,211 @@
 PRD
+Here’s the PRD rewritten with **AeroVista** branding.
+
+**PRD: AeroVista Premium Service Companion**
+
+**Product Overview**
+
+**AeroVista Premium Service Companion** is a personalized inflight service experience available through the AeroVista mobile app and seatback screen for premium-cabin passengers. It allows travelers to set meal timing, beverage preferences, rest preferences, and special occasion details before or during the flight.
+
+Cabin crew receive a simplified seat-level service summary so they can deliver a more personalized, proactive, and premium onboard experience.
+
+**Problem Statement**
+
+Premium passengers expect service that feels personal, thoughtful, and respectful of their time. Today, inflight service is often built around a standard cabin workflow rather than individual customer preferences.
+
+This can create friction when passengers are awakened during rest, receive meals at inconvenient times, repeat beverage preferences, or miss opportunities for special recognition during important trips.
+
+**Goals**
+
+- Make premium inflight service feel more personalized and proactive.
+- Give passengers more control over their onboard experience.
+- Help crew deliver high-touch service without adding unnecessary complexity.
+- Improve satisfaction in premium cabins.
+- Build a reusable preference profile for future flights.
+
+**Target Users**
+
+Passenger users:
+- AeroVista First Class passengers
+- AeroVista Business Class passengers
+- Premium Economy passengers on long-haul routes
+- Loyalty members traveling in premium cabins
+- Business travelers
+- Leisure travelers celebrating special occasions
+
+Internal users:
+- Flight attendants
+- Lead cabin crew
+- Catering operations
+- Customer experience teams
+- Loyalty program teams
+
+**Core User Stories**
+
+As a premium passenger, I want to choose when I receive my meal so that service fits my sleep, work, or arrival schedule.
+
+As a premium passenger, I want to save my beverage preferences so that crew can provide a more personalized experience.
+
+As a premium passenger, I want to select “Do not disturb” so that I can rest without interruption.
+
+As a premium passenger, I want crew to know if I am celebrating a special occasion so that the experience feels more memorable.
+
+As a flight attendant, I want a clear seat-level view of passenger preferences so that I can deliver personalized service efficiently.
+
+**MVP Features**
+
+**1. Meal Timing Selection**
+
+Passengers can choose one meal timing preference:
+- After takeoff
+- Mid-flight
+- Before landing
+
+The selected timing is visible in both the AeroVista app and seatback screen.
+
+**2. Beverage Preferences**
+
+Passengers can select and save preferred beverages, such as:
+- Water
+- Coffee
+- Tea
+- Red wine
+- White wine
+- Sparkling wine
+- Juice
+- Soft drink
+
+Preferences can be saved for the current flight or added to the passenger’s AeroVista loyalty profile for future flights.
+
+**3. Rest Preferences**
+
+Passengers can choose:
+- Do not disturb
+- Wake me for meal
+- Wake me before landing
+- No preference
+
+This helps crew understand when to engage with the passenger.
+
+**4. Special Occasion Recognition**
+
+Passengers can optionally indicate:
+- Birthday
+- Anniversary
+- Honeymoon
+- Business milestone
+- Other celebration
+- None
+
+Crew see a lightweight special occasion flag where appropriate.
+
+**5. Crew-Facing Seat Summary**
+
+Crew can view a premium cabin seat map with:
+- Seat number
+- Passenger name
+- Loyalty tier
+- Meal timing preference
+- Beverage preference
+- Rest preference
+- Special occasion flag
+- Service completion status
+
+**Passenger Experience Flow**
+
+1. Passenger opens the AeroVista app before departure.
+2. App displays: “Personalize your onboard service.”
+3. Passenger selects meal timing.
+4. Passenger chooses beverage preference.
+5. Passenger selects rest preference.
+6. Passenger adds optional special occasion.
+7. Passenger confirms preferences.
+8. Preferences sync to seatback screen and crew device.
+9. Passenger can update preferences during flight if needed.
+
+**Crew Experience Flow**
+
+1. Crew opens the premium cabin service view.
+2. Crew sees a seat map with preference indicators.
+3. Seat 3A shows:
+   - Meal: Mid-flight
+   - Beverage: Sparkling wine
+   - Rest: Do not disturb after meal
+   - Occasion: Anniversary
+4. Crew delivers service based on preferences.
+5. Crew marks service as complete.
+6. Any exception or unavailable item can be logged.
+
+**Non-Goals**
+
+- Replacing crew judgment or hospitality.
+- Guaranteeing every beverage or meal preference.
+- Allowing unlimited custom service requests in MVP.
+- Supporting all cabins at launch.
+- Handling complex medical or accessibility requests in MVP.
+
+**Success Metrics**
+
+Customer metrics:
+- Premium cabin satisfaction score
+- Inflight service NPS
+- “Service felt personalized” survey score
+- Reduction in complaints about missed meals or unwanted interruptions
+
+Adoption metrics:
+- Percentage of eligible passengers who set preferences
+- Percentage of passengers who save preferences to profile
+- Seatback usage rate
+- App pre-flight completion rate
+
+Operational metrics:
+- Crew adoption rate
+- Meal timing fulfillment rate
+- Beverage preference fulfillment rate
+- Average service completion time
+- Number of service exceptions logged
+
+Business metrics:
+- Premium cabin repeat purchase rate
+- Loyalty engagement among premium travelers
+- Paid upgrade conversion over time
+- Brand perception around premium service
+
+**Risks & Considerations**
+
+- Crew may feel overloaded if too many preferences are shown.
+- Inventory constraints may prevent fulfillment.
+- Passengers may interpret preferences as guarantees.
+- Seat changes or aircraft swaps may create sync issues.
+- Privacy needs to be handled carefully for loyalty tier and special occasion data.
+- Offline aircraft systems may limit real-time updates.
+
+**MVP Launch Scope**
+
+Recommended launch:
+- Long-haul international flights
+- Business Class and First Class cabins
+- AeroVista mobile app
+- Seatback screen
+- Crew tablet view
+
+Future expansion:
+- Premium Economy
+- Domestic premium routes
+- AI-based preference suggestions
+- Personalized amenity recommendations
+- Integration with airport lounge preferences
+- Multi-language support
+
+**Example Mockup Screens**
+
+1. AeroVista app: Service personalization entry screen
+2. Meal timing selection screen
+3. Beverage and rest preference screen
+4. Special occasion selection screen
+5. Seatback confirmation screen
+6. Crew seat map summary view
+
+**One-Line Product Pitch**
+
+**AeroVista Premium Service Companion helps premium passengers personalize their onboard experience while giving cabin crew the right information to deliver thoughtful, high-touch service.**
